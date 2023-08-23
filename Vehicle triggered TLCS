@@ -23,6 +23,7 @@ void loop() {
     digitalWrite(A2,HIGH);
     digitalWrite(A3,LOW);
     digitalWrite(A5,LOW);
+    digitalWrite(AO,LOW);
     delay (15000);
   }
   delay(2000);
@@ -33,6 +34,7 @@ void loop() {
     digitalWrite(A2,HIGH);
     digitalWrite(A1,LOW);
     digitalWrite(A3,LOW);
+    digitalWrite(A4,LOW);
     delay (15000);
   }
   delay(2000);
@@ -43,6 +45,7 @@ void loop() {
     digitalWrite(A0,HIGH);
     digitalWrite(A1,LOW);
     digitalWrite(A5,LOW);
+    digitalWrite(A2,LOW);
     delay (15000);
   }
 delay(2000);
